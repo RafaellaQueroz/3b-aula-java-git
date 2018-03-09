@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="832.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuprincipalController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="832.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../../../../../../Downloads/fundodetela.JPG" />
+         </image>
+      </ImageView>
+      <Button layoutX="39.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Cliente" />
+      <Button layoutX="39.0" layoutY="567.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="RL.Vendas" />
+      <Button layoutX="302.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Parcelas" />
+      <Button layoutX="170.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Funcionário" />
+      <Button layoutX="39.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Venda" />
+      <Button layoutX="302.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Fornecedor" />
+      <Button layoutX="427.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Produto" />
+      <Button layoutX="547.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Despesa" />
+      <Button layoutX="297.0" layoutY="567.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="RL.Despesas" />
+      <Button layoutX="170.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Compras" />
+      <Button layoutX="427.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Estoque" />
+      <Button layoutX="164.0" layoutY="567.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="RL.Compras" />
+      <Button layoutX="547.0" layoutY="567.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="RL.Fiscais" />
+      <Button layoutX="547.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Mov Caixa" />
+      <Button layoutX="422.0" layoutY="567.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Fechamentos" />
+   </children>
+</AnchorPane>
